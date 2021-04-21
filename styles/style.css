@@ -1,0 +1,95 @@
+/*
+    Title: style.css
+    Purpose: CSS for Ontario HotSpots & Risk Factors
+    Author: Emily Holdsworth
+    Date: April 2021
+ */
+.attributes{
+    float:right;
+    padding-top:0;
+    padding-bottom:0;
+    margin-bottom:0;
+    margin-right: 1em;
+}
+a.links:visited {
+    color: #ffffff;
+}
+a.links:hover {
+    color: #FFD440;
+}
+.svglinks:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+body{
+    padding-top: 7vh;
+    padding-bottom: 12vh;
+    background-color: #F2F2F2;
+}
+.btn-group{
+
+    margin-left:1em;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+}
+#credits {
+    margin-left:auto;
+    margin-right:0;
+}
+#dataSource {
+    margin-bottom:10em;
+}
+#dataSource a, #dataSource p {
+    display: inline;
+}
+div.legend.leaflet-control br {
+    clear: both;
+}
+#emily {
+    margin-left:1em;
+    margin-bottom:0;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h5 {
+    margin: 0 0 5px;
+    color: #777;
+    font-size: 90%;
+}
+.links {
+    color: #ffffff;
+}
+.legend {
+    padding: 6px 8px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+#mapid {
+    height: 70vh;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav-left {
+    float:left
+}
+.topnav-right{
+    margin-top:1em;
+    float:right !important;
+}
+
